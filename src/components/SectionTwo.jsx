@@ -1,11 +1,8 @@
 import React from 'react'
-import manteAsistencia from '../assets/img/mantenimiento-asistencia.jpg'
 import plc from '../assets/img/articulado.webp'
 import comprInd from '../assets/img/pavi.jpg'
-import manteEdilicio from '../assets/img/mantenimiento-edilicio.jpg'
 import foto3 from '../assets/img/maquina3.webp'
 import foto7 from '../assets/img/maquina7.jpg'
-import divElectrica from '../assets/img/division-electrica.jpg'
 import { ChevronDoubleRightIcon, CubeTransparentIcon  } from "@heroicons/react/24/outline";
 import { motion } from 'framer-motion'
 
