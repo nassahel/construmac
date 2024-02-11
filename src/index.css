@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GENERALES------------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.app {
+    font-family: "Lato", sans-serif;
+}
+
+@layer components {
+    .nav-btn {
+        @apply h-full flex items-center justify-center duration-300 w-32 hover:text-pink-700
+    }
+
+    .nav-mov {
+        @apply bg-white text-center font-bold text-3xl duration-200 text-azulServe hover:text-pink-700
+    }
+
+    li {
+        @apply pb-1 text-lg flex items-center
+    }
+
+    .gra {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .input-form {
+        @apply w-full border-2 border-gray-400 rounded-md h-10 px-2 focus:outline-pink-700 hover:border-pink-700 duration-200
+    }
+
+}
+
+
+/* SECTIONONE.JSX------------------------------------------------------------------------- */
+.contenedor-principal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.contenedor-main {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.contenedor-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/img/img-mantenimiento.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: growBackground 25s ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: -3;
+}
+
+@keyframes growBackground {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
