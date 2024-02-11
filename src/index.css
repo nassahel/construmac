@@ -15,20 +15,15 @@ html {
 
 @layer components {
     .nav-btn {
-        @apply h-full flex items-center justify-center duration-300 w-32 hover:text-pink-700
+        @apply py-2 flex items-center justify-center duration-300 w-32 border border-transparent hover:border-blue-950
     }
 
     .nav-mov {
-        @apply bg-white text-center font-bold text-3xl duration-200 text-azulServe hover:text-pink-700
+        @apply text-center font-bold text-3xl duration-200 text-white hover:text-yellow-400
     }
 
     li {
         @apply pb-1 text-lg flex items-center
-    }
-
-    .gra {
-        background: rgb(255, 255, 255);
-        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0) 100%);
     }
 
     .input-form {
@@ -47,7 +42,6 @@ html {
 
 .contenedor-main {
     position: relative;
-    height: 100vh;
     overflow: hidden;
     width: 100%;
 
@@ -66,18 +60,6 @@ html {
     animation: growBackground 25s ease-in-out;
     animation-iteration-count: infinite;
     z-index: -3;
-}
-
-@keyframes growBackground {
-
-    0%,
-    100% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
 }
 
 

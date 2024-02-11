@@ -31,7 +31,7 @@ const SectionTree = () => {
                 transition={{ duration: .3, delay: .5}}
                 viewport={{ once: true }}
                 key={index}
-                className='flex bg-white items-center justify-center shadow-lg rounded hover:scale-105 duration-200  w-80 p-6 h-64'>
+                className='flex bg-white items-center justify-center overflow-hidden shadow-lg rounded hover:scale-105 duration-200  w-80 p-6 h-64'>
                 <img className='w-full' src={cliente} alt="logo empresa Santista" />
               </motion.figure>
             ))
