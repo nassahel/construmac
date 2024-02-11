@@ -28,7 +28,7 @@ const SectionFour = () => {
         <h2 className='text-4xl font-semibold text-azulServe text-center'>MAQUINAS DISPONIBLES</h2>
       </div>
 
-      <div className='md:w-10/12 lg:w-6/12 py-10 flex'>
+      <div className='md:w-10/12  justify-center lg:w-6/12 py-10 flex'>
         <Carousel
           autoPlay
           infiniteLoop
