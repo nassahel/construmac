@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Construmac
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Propósito
+
+Esta landing page cuenta con diversas secciones, que incluyen animaciones, un carrusel interactivo y un formulario integrado. Esta página combina elementos visuales dinámicos con una estructura de navegación intuitiva. La incorporación de animaciones y transiciones añade un toque de interactividad, mientras que el formulario permite a los usuarios interactuar activamente con el contenido y enviar sus consultas o comentarios de manera eficiente
+
+Esta es una remodelacion de una pagina que fue un trabajo para una empresa. Se ca cmbio información, logos y colores
+
+## Tecnologias
+
+**Client:** ReactJS | Tailwind | Farmer Motion | React Router
+
+
+
+## Screenshots
+
+![App Screenshot](https://nassahel-portfolio.vercel.app/assets/img/projects-img/construmac.webp)
+
+
